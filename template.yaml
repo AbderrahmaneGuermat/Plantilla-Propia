@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: springboot-template
+  name: Plantilla SpringBoot
   title: Spring Boot Example
   description: Create an example of spring project
   tags:
