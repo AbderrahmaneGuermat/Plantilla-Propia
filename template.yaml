@@ -82,8 +82,8 @@ spec:
         repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
         catalogInfoPath: "/catalog-info.yaml"
 
-    - id: fetch-docs
-      name: Fetch Docs
+    - id: fetch
+      name: Fetch
       action: fetch:plain
       input:
         targetPath: ./nuevacarpeta
