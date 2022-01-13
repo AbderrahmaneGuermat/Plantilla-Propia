@@ -86,7 +86,7 @@ spec:
       name: Fetch Docs
       action: fetch:plain
       input:
-        targetPath: ./
+        targetPath: ./nuevacarpeta
         url: ${{ steps.publish.output.remoteUrl }}
 
 
