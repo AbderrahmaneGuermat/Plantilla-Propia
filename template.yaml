@@ -86,8 +86,8 @@ spec:
       name: Fetch Docs
       action: fetch:plain
       input:
-        targetPath: ./
-        url: ${{ steps.publish.output.repoContentsUrl }}
+        targetPath: ./nuevaCarpeta
+        url: ${{ steps.publish.output.remoteUrl }}
 
 
   output:
